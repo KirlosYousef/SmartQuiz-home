@@ -7,8 +7,11 @@
     <list default="true" id="e5d6f0f5-ea4d-4db0-afef-ee49feaecb68" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact_process.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/mail-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mail-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/AppLogoLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ilstrator/runner_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/privacy_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_policy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terms_and_conditions.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms_and_conditions.html" afterDir="false" />
     </list>
@@ -92,7 +95,7 @@
       <workItem from="1726144478165" duration="955000" />
       <workItem from="1726322675090" duration="367000" />
       <workItem from="1726845382904" duration="27000" />
-      <workItem from="1729107480932" duration="893000" />
+      <workItem from="1729107480932" duration="1986000" />
     </task>
     <servers />
   </component>
