@@ -1,619 +1,162 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta content="ie=edge" http-equiv="x-ua-compatible">
-    <title>RaceMe!</title>
-    <meta content="Challenge, Run & Win!" name="description">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link rel="icon" href="img/favicon.ico">
-
-    <!--     <link rel="manifest" href="site.webmanifest">-->
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/owl.carousel.min.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/themify-icons.css" rel="stylesheet">
-    <link href="css/nice-select.css" rel="stylesheet">
-    <link href="css/flaticon.css" rel="stylesheet">
-    <link href="css/gijgo.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/slick.css" rel="stylesheet">
-    <link href="css/slicknav.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ff">
+  <title>SmartQuiz — Make curiosity a daily habit</title>
+  <meta name="description" content="Turn any curiosity into an AI-powered quiz. Pick a topic, play a quick challenge, review tricky answers with flashcards, and build a learning streak with SmartQuiz.">
+  <meta name="keywords" content="AI quiz app, custom trivia, quiz maker, flashcards, daily quiz, learning app, trivia game, SmartQuiz AI">
+  <link rel="canonical" href="https://www.smartquiz.kirlosyousef.com/">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/images/smartquiz-app-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SmartQuiz">
+  <meta property="og:title" content="SmartQuiz — Make curiosity a daily habit">
+  <meta property="og:description" content="Your interests become quick, playful quizzes. Learn a little every day with AI-made questions, flashcards, and streaks.">
+  <meta property="og:url" content="https://www.smartquiz.kirlosyousef.com/">
+  <meta property="og:image" content="https://www.smartquiz.kirlosyousef.com/assets/images/social-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="SmartQuiz — make curiosity a daily habit, with AI-powered quizzes, flashcards, and streaks.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SmartQuiz — Make curiosity a daily habit">
+  <meta name="twitter:description" content="Turn any curiosity into a quick, playful quiz. Learn a little every day with SmartQuiz.">
+  <meta name="twitter:image" content="https://www.smartquiz.kirlosyousef.com/assets/images/social-card.jpg">
+  <meta name="twitter:image:alt" content="SmartQuiz with AI-powered quizzes, custom topics, flashcards, and learning streaks.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Smart Quiz: AI Trivia Maker",
+    "alternateName": "SmartQuiz AI",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "iOS",
+    "description": "An iOS quiz and learning app with AI-generated topic quizzes, custom topics, multiple question formats, flashcards, daily challenges, and learning streaks.",
+    "url": "https://www.smartquiz.kirlosyousef.com/",
+    "image": "https://www.smartquiz.kirlosyousef.com/assets/images/smartquiz-app-icon.png",
+    "downloadUrl": "https://apps.apple.com/us/app/smart-quiz-ai-trivia-maker/id6736992820",
+    "offers": {"@type":"Offer", "price":"0", "priceCurrency":"USD"},
+    "author": {"@type":"Person", "name":"Kirlos Yousef"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"What is SmartQuiz?","acceptedAnswer":{"@type":"Answer","text":"SmartQuiz is an iOS quiz app that turns topics you choose into quick AI-generated quizzes, then helps you revisit tricky answers with flashcards."}},
+      {"@type":"Question","name":"Can I make a quiz about my own topic?","acceptedAnswer":{"@type":"Answer","text":"Yes. Choose a suggested subject or enter a custom topic, then tune your quiz with a difficulty and question format."}},
+      {"@type":"Question","name":"How does SmartQuiz help me keep learning?","acceptedAnswer":{"@type":"Answer","text":"Daily challenges, learning streaks, milestones, and flashcards make it easy to return to a subject and review what you missed."}}
+    ]
+  }
+  </script>
 </head>
-
 <body>
-<!--[if lte IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience and security.</p>
-<![endif]-->
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="SmartQuiz home">
+      <img src="/assets/images/smartquiz-app-icon.png" alt="" width="44" height="44">
+      <span>Smart<span class="brand-accent">Quiz</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="#how-it-works">How it works</a>
+      <a href="#features">Features</a>
+      <a href="/privacy_policy.html">Privacy</a>
+      <a class="nav-cta" href="https://apps.apple.com/us/app/smart-quiz-ai-trivia-maker/id6736992820" target="_blank" rel="noopener noreferrer">Get the app <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-<!-- header-start -->
-<header>
-    <div class="header-area ">
-        <div class="main-header-area" id="sticky-header">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-xl-3 col-lg-2">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img alt="" src="img/logo.png">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-7">
-                        <div class="main-menu  d-none d-lg-block">
-                            <nav>
-                                <ul id="navigation">
-                                    <!--                                                            <li><a class="active" href="index.html">home</a></li>-->
-                                    <!--                                                            <li><a href="features.html">Features</a></li>-->
-                                    <!--                                                            <li><a href="Pricing.html">Pricing</a></li>-->
-                                    <!--                                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>-->
-                                    <!--                                                                <ul class="submenu">-->
-                                    <!--                                                                    <li><a href="blog.html">blog</a></li>-->
-                                    <!--                                                                    <li><a href="single-blog.html">single-blog</a></li>-->
-                                    <!--                                                                </ul>-->
-                                    <!--                                                            </li>-->
-                                    <!--                                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>-->
-                                    <!--                                                                <ul class="submenu">-->
-                                    <!--                                                                     <li><a href="elements.html">elements</a></li>-->
-                                    <!--                                                                </ul>-->
-                                    <!--                                                            </li>-->
-                                    <li><a href="privacy_policy.html">Privacy Policy</a></li>
-                                    <li><a href="terms_and_conditions.html">Terms & Conditions</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                        <div class="Appointment">
-                            <div class="book_btn d-none d-lg-block">
-                                <a href="https://apps.apple.com/us/app/id1514432749">Download</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
-                    </div>
-                </div>
-
-            </div>
+  <main id="main">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="sparkle" aria-hidden="true">✳</span> A little smarter, every day</div>
+        <h1>Follow your curiosity.<br><span>Quiz your way there.</span></h1>
+        <p class="hero-lede">From “wait, how does that work?” to your next favorite quiz. Pick a subject, make it yours, and learn in a few playful minutes.</p>
+        <div class="hero-feature-list" aria-label="SmartQuiz features">
+          <span><i class="dot dot-violet"></i> AI-made quizzes</span>
+          <span><i class="dot dot-orange"></i> Any topic, your level</span>
+          <span><i class="dot dot-mint"></i> Streaks &amp; flashcards</span>
         </div>
-    </div>
-</header>
-<!-- header-end -->
-
-<!-- slider_area_start -->
-<div class="slider_area">
-    <div class="single_slider  d-flex align-items-center slider_bg_1">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-7 col-md-6">
-                    <div class="slider_text ">
-                        <h3 class="wow fadeInDown" data-wow-delay=".1s" data-wow-duration="1s">RaceMe: Challenge, Run & Win!<br>
-                        </h3>
-                        <p class="wow fadeInLeft" data-wow-delay=".1s" data-wow-duration="1s">Compete in real-world
-                            running races! Join a community of runners, track your progress, and conquer the leaderboards.</p>
-                        <div class="video_service_btn wow fadeInLeft" data-wow-delay=".1s" data-wow-duration="1s">
-                            <a class="boxed-btn3" href="https://apps.apple.com/us/app/id1514432749">Get Start Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-md-6">
-                    <div class="phone_thumb wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.1s">
-                        <img alt="" src="img/ilstrator_img/profile.pngt">
-                    </div>
-                </div>
-            </div>
+        <div class="hero-actions">
+          <a class="app-store-button" href="https://apps.apple.com/us/app/smart-quiz-ai-trivia-maker/id6736992820" target="_blank" rel="noopener noreferrer" aria-label="Download SmartQuiz on the App Store">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.05 12.54c-.02-2.07 1.69-3.07 1.77-3.12-.97-1.41-2.47-1.6-3-1.62-1.27-.13-2.5.76-3.15.76-.67 0-1.66-.75-2.73-.73-1.39.02-2.7.83-3.41 2.09-1.46 2.54-.37 6.27 1.03 8.33.7 1.01 1.51 2.13 2.57 2.09 1.03-.04 1.42-.67 2.67-.67 1.24 0 1.6.67 2.68.65 1.11-.02 1.81-1.02 2.48-2.04a9.1 9.1 0 0 0 1.14-2.35c-.03-.01-2.03-.78-2.05-3.39ZM14.98 6.45c.56-.7.94-1.66.83-2.63-.81.04-1.82.56-2.4 1.24-.52.6-.98 1.6-.85 2.53.91.07 1.85-.46 2.42-1.14Z"/></svg>
+            <span><small>Download on the</small><strong>App Store</strong></span>
+          </a>
+          <span class="compatibility">Made for iPhone &amp; iPad</span>
         </div>
-    </div>
-</div>
-<!-- slider_area_end -->
-<!-- service_area  -->
-<div class="service_area">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="section_title text-center  wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">
-                    <h3>Many features<br>
-                        to keep you up</h3>
-                </div>
-            </div>
+        <div class="hero-note"><span class="tiny-check" aria-hidden="true">✓</span> Quick rounds. Real “oh, I didn’t know that” moments.</div>
+      </div>
+      <div class="hero-art reveal" aria-label="SmartQuiz app preview">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="floating-chip chip-streak"><span>🔥</span><span><b>Your streak</b><small>One quiz at a time</small></span></div>
+        <div class="floating-chip chip-flash"><span class="flash-icon">✦</span><span><b>Learn from a miss</b><small>Save it as a flashcard</small></span></div>
+        <div class="phone-frame">
+          <img src="/assets/images/personalize-every-quiz.webp" alt="SmartQuiz home screen showing a personalized daily learning topic and quick-start quiz" width="1290" height="2796" fetchpriority="high">
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-4">
-                <div class="single_service text-center wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".6s">
-                    <div class="thumb">
-                        <img alt="" src="img/icon/2.svg">
-                    </div>
-                    <h3>Level up<br>
-                    </h3>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <div class="single_service text-center wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s">
-                    <div class="thumb">
-                        <img alt="" src="img/icon/1.svg">
-                    </div>
-                    <h3>Player Statistics<br>
-                    </h3>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
+        <div class="orbit-label"><span class="orbit-star">✳</span><span>Curiosity<br>looks good on you.</span></div>
+      </div>
+      <a class="scroll-cue" href="#how-it-works"><span></span> See how it works</a>
+    </section>
 
-                <div class="single_service text-center wow fadeInUp " data-wow-delay=".6s" data-wow-duration=".8s">
-                    <div class="thumb">
-                        <img alt="" src="img/icon/3.svg">
-                    </div>
-                    <h3>Milestones</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--/ service_area  -->
+    <section class="ticker" aria-label="SmartQuiz at a glance"><div class="ticker-track"><span>Pick a topic</span><i>✳</i><span>Choose your level</span><i>✳</i><span>Play a quick round</span><i>✳</i><span>Keep what you learn</span><i>✳</i><span>Pick a topic</span><i>✳</i><span>Choose your level</span><i>✳</i><span>Play a quick round</span><i>✳</i><span>Keep what you learn</span><i>✳</i></div></section>
 
-<!-- service_area_2  -->
-<div class="service_area_2">
-    <div class="container">
-        <div class="row align-items-center image-container">
-            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration=".4s">
-                <div class="man_thumb">
-                    <img alt="" src="img/ilstrator_img/choose_track.png">
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".5s" data-wow-duration=".8s">
-                <div class="mobile_screen">
-                    <img alt="" src="img/ilstrator_img/run.png">
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".5s" data-wow-duration=".8s">
-                <div class="additional_screen">
-                    <img alt="" src="img/ilstrator_img/results.png">
-                </div>
-            </div>
-        </div>
-        <div class="service_content_wrap">
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="single_service  wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">
-                        <span>01</span>
-                        <h3>Pick a Track</h3>
-                        <p>Choose from one of the five exciting tracks to run. Each track offers a unique distance and
-                            challenge. Match with a player who selects the same track and get ready for a fun and competitive run!</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="single_service  wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".6s">
-                        <span>02</span>
-                        <h3>Run!</h3>
-                        <p>It's time to hit the track! Start running and compete with your opponent in real-time.
-                            Collect points, achieve milestones, and enjoy every step of your fitness journey!</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4  wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s">
-                    <div class="single_service">
-                        <span>03</span>
-                        <h3>Match Performance</h3>
-                        <p>Monitor your performance with detailed analytics. Track your progress, compare with previous
-                            runs, and see how you stack up against other runners. Stay motivated and keep pushing your limits to achieve your fitness goals!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--/ service_area_2  -->
+    <section class="section-shell how-section" id="how-it-works">
+      <div class="section-heading reveal"><span class="eyebrow">A better kind of brain break</span><h2>Curiosity in.<br><span>Confidence out.</span></h2><p>No giant study plan. Just a topic you love and a few minutes to explore it.</p></div>
+      <div class="steps-grid">
+        <article class="step-card reveal"><div class="step-number">01 <span>choose</span></div><div class="step-visual topic-visual"><div class="topic-orb">✦</div><span class="topic-tag tag-space">Space</span><span class="topic-tag tag-history">History</span><span class="topic-tag tag-custom">Your own topic +</span><span class="topic-tag tag-nature">Nature</span></div><h3>Start with anything</h3><p>Explore a favorite category or type in a custom subject that just crossed your mind.</p></article>
+        <article class="step-card reveal"><div class="step-number">02 <span>play</span></div><div class="step-visual question-visual"><div class="question-top"><span>QUICK QUIZ</span><span class="question-clock">◷ 30s</span></div><div class="question-copy">What makes a shooting star glow?</div><div class="answer-row answer-correct"><span>A</span> A tiny meteor burning up <b>✓</b></div><div class="answer-row"><span>B</span> A distant star moving fast</div></div><h3>Make it your kind of quiz</h3><p>Set a difficulty and mix formats like multiple choice, true or false, and explain-the-answer.</p></article>
+        <article class="step-card reveal"><div class="step-number">03 <span>remember</span></div><div class="step-visual remember-visual"><div class="memory-card"><span class="memory-star">✦</span><small>YOUR NEXT REVIEW</small><strong>One more look<br>makes it stick.</strong><div class="memory-progress"><i></i><i></i><i></i><i></i><i></i></div></div><span class="memory-float">Nice work! <b>+1</b></span></div><h3>Keep the good bits</h3><p>Revisit missed answers with flashcards, mark your progress, and come back for tomorrow’s challenge.</p></article>
+      </div>
+    </section>
 
+    <section class="feature-band" id="features">
+      <div class="section-shell feature-layout">
+        <div class="feature-copy reveal"><span class="eyebrow eyebrow-light">Built for your kind of curious</span><h2>Not a quiz on<br>everything.<br><em>A quiz on your thing.</em></h2><p>SmartQuiz adapts the fun to what you want to learn. Go from a familiar favorite to a wonderfully specific question of your own.</p><ul class="feature-points"><li><span>✦</span> Choose a topic, difficulty, and quiz style</li><li><span>✦</span> Generate a custom quiz from your idea</li><li><span>✦</span> Pick the language for questions and feedback</li></ul><a class="text-link light-link" href="https://apps.apple.com/us/app/smart-quiz-ai-trivia-maker/id6736992820" target="_blank" rel="noopener noreferrer">Find your next topic <span aria-hidden="true">↗</span></a></div>
+        <div class="feature-screen reveal"><div class="screen-shadow"></div><img src="/assets/images/build-quizzes-your-way.webp" alt="SmartQuiz quiz setup screen with choices for topic, difficulty, and question type" width="1290" height="2796" loading="lazy"><div class="screen-caption"><span class="caption-icon">✳</span><span><b>Your curiosity sets the pace</b><small>Suggested or custom. Easy to challenging.</small></span></div></div>
+      </div>
+      <div class="band-spark band-spark-one">✦</div><div class="band-spark band-spark-two">✳</div>
+    </section>
 
-<!-- about  -->
-<div class="features_area ">
-    <div class="container">
-        <div class="features_main_wrap">
-            <div class="row  align-items-center">
-                <div class="col-xl-5 col-lg-5 col-md-6">
-                    <div class="features_info2">
-                        <h3>Friends and Chats</h3>
-                        <p>Stay connected and motivated by adding friends and engaging in lively chats.
-                            Share your progress, plan runs, and challenge each other to new heights.
-                            With real-time messaging and friendly competition, your running journey becomes a fun and
-                            social experience!</p>
-                        <div class="about_btn">
-                            <a class="boxed-btn4" href="https://apps.apple.com/us/app/id1514432749">Download Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-5 offset-xl-2 offset-lg-1 col-md-6 ">
-                    <div class="about_draw wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s">
-                        <img alt="" src="img/ilstrator_img/friends.png" style="width: auto; height: 500px;">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="features_main_wrap">
-            <div class="row  align-items-center">
-                <div class="col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 col-md-6">
-                    <div class="about_image wow fadeInLeft" data-wow-delay=".3s" data-wow-duration=".4s">
-                        <img alt="" src="img/ilstrator_img/profile.png" style="width: auto; height: 500px;">
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="features_info">
-                        <h3 class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">Leaderboards<br>
-                        </h3>
-                        <p class="wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".6s">
-                            Climb the ranks and showcase your running prowess on our dynamic leaderboards.
-                            Compete with friends and other runners globally to see who tops the charts.
-                            Stay motivated by tracking your position and striving for that number one spot!</p>
-                        <ul>
-                            <li class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s"> Weekly Leaderboard.
-                            </li>
-                            <li class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".8s"> Monthly
-                                Leaderboard.
-                            </li>
-                            <li class="wow fadeInUp" data-wow-delay=".7s" data-wow-duration=".9s"> Yearly Leaderboard.
-                            </li>
-                        </ul>
+    <section class="section-shell habit-section">
+      <div class="habit-intro reveal"><span class="eyebrow">Tiny wins add up</span><h2>Make learning<br><span>part of your day.</span></h2><p>A short round can be the start of a lasting habit. SmartQuiz gives you gentle reasons to return and a little celebration when you do.</p><a class="text-link" href="https://apps.apple.com/us/app/smart-quiz-ai-trivia-maker/id6736992820" target="_blank" rel="noopener noreferrer">Start a streak <span aria-hidden="true">↗</span></a></div>
+      <div class="habit-art reveal"><div class="habit-glow"></div><div class="habit-screen"><img src="/assets/images/take-the-real-quiz.webp" alt="SmartQuiz live quiz experience with a timed question and answer choices" width="1290" height="2796" loading="lazy"></div><div class="streak-stamp"><span>🔥</span><b>Little by little</b><small>your streak grows</small></div><div class="milestone-stamp"><span>✦</span><b>Milestones</b><small>every win counts</small></div></div>
+    </section>
 
-                        <div class="about_btn wow fadeInUp" data-wow-delay=".8s" data-wow-duration=".10s">
-                            <a class="boxed-btn4" href="https://apps.apple.com/us/app/id1514432749">Download Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row  align-items-center">
-            <div class="col-xl-5 col-lg-5 col-md-6">
-                <div class="features_info2">
-                    <h3>Milestones</h3>
-                    <p>Celebrate every achievement with our milestones feature. Track your progress, unlock badges,
-                        and set new personal records. Each milestone reached is a step closer to your fitness goals,
-                        making every run a rewarding experience!</p>
-                    <div class="about_btn">
-                        <a class="boxed-btn4" href="https://apps.apple.com/us/app/id1514432749">Download Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-5 col-lg-5 offset-xl-2 offset-lg-1 col-md-6 ">
-                <div class="about_draw wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s">
-                    <img alt="" src="img/ilstrator_img/milestones.png" style="width: auto; height: 500px;">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--/ about  -->
-<!-- testmonial_area  -->
-<!--    <div class="testmonial_area">-->
-<!--        <div class="container">-->
-<!--            <div class="col-xl-12">-->
-<!--                <div class="testmonial_active owl-carousel">-->
-<!--                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">-->
-<!--                        <div class="section_title">-->
-<!--                            <h3>Review from our <br>-->
-<!--                                    regular users</h3>-->
-<!--                        </div>-->
-<!--                        <p>-->
-<!--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>-->
-<!--                                tempor incididunt labore et dolore magna aliqua <br>-->
-<!--                                quis ipsum suspendisse ultrices.-->
-<!--                        </p>-->
-<!--                        <div class="rating_author">-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <span>-->
-<!--                                    - Robert Smile-->
-<!--                            </span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">-->
-<!--                        <div class="section_title">-->
-<!--                            <h3>Review from our <br>-->
-<!--                                    regular users</h3>-->
-<!--                        </div>-->
-<!--                        <p>-->
-<!--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>-->
-<!--                                tempor incididunt labore et dolore magna aliqua <br>-->
-<!--                                quis ipsum suspendisse ultrices.-->
-<!--                        </p>-->
-<!--                        <div class="rating_author">-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <span>-->
-<!--                                    - Robert Smile-->
-<!--                            </span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">-->
-<!--                        <div class="section_title">-->
-<!--                            <h3>Review from our <br>-->
-<!--                                    regular users</h3>-->
-<!--                        </div>-->
-<!--                        <p>-->
-<!--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>-->
-<!--                                tempor incididunt labore et dolore magna aliqua <br>-->
-<!--                                quis ipsum suspendisse ultrices.-->
-<!--                        </p>-->
-<!--                        <div class="rating_author">-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <span>-->
-<!--                                    - Robert Smile-->
-<!--                            </span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">-->
-<!--                        <div class="section_title">-->
-<!--                            <h3>Review from our <br>-->
-<!--                                    regular users</h3>-->
-<!--                        </div>-->
-<!--                        <p>-->
-<!--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>-->
-<!--                                tempor incididunt labore et dolore magna aliqua <br>-->
-<!--                                quis ipsum suspendisse ultrices.-->
-<!--                        </p>-->
-<!--                        <div class="rating_author">-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <i class="fa fa-star"></i>-->
-<!--                            <span>-->
-<!--                                    - Robert Smile-->
-<!--                            </span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--/ testmonial_area  -->
+    <section class="flash-section">
+      <div class="section-shell flash-layout">
+        <div class="flash-art reveal"><img src="/assets/images/flashcards-from-mistakes.webp" alt="SmartQuiz flashcards turn a missed quiz answer into a chance to review" width="1290" height="2796" loading="lazy"><div class="flash-note"><span>↻</span><span><b>Missed it?</b><small>Make it a flashcard.</small></span></div></div>
+        <div class="flash-copy reveal"><span class="eyebrow">The good part is what you keep</span><h2>Every answer<br>teaches you <span>something.</span></h2><p>Get a quick explanation after each question. Save tricky answers as flashcards and turn “almost” into “got it.”</p><div class="mini-stats"><div><b>01</b><span>Answer</span></div><i>→</i><div><b>02</b><span>Understand</span></div><i>→</i><div><b>03</b><span>Remember</span></div></div><a class="text-link" href="https://apps.apple.com/us/app/smart-quiz-ai-trivia-maker/id6736992820" target="_blank" rel="noopener noreferrer">Make your next answer count <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
 
-<!-- prising_area  -->
-<!--    <div class="prising_area">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-xl-12">-->
-<!--                    <div class="section_title text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">-->
-<!--                        <h3>Unlock full Power</h3>-->
-<!--                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing-->
-<!--                            elit sed do eiusmod <br> tempor incididunt.</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="row no-gutters align-items-center">-->
-<!--                <div class="col-xl-4 col-md-4">-->
-<!--                    <div class="single_prising text-center wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".8s">-->
-<!--                        <div class="prising_header d-flex justify-content-between">-->
-<!--                            <h3>Basic</h3>-->
-<!--                            <span>$06</span>-->
-<!--                        </div>-->
-<!--                        <ul>-->
-<!--                            <li>One User</li>-->
-<!--                            <li>1000 ui elements</li>-->
-<!--                            <li>Webmail Support</li>-->
-<!--                            <li>100GB Cloud Storage</li>-->
-<!--                        </ul>-->
-<!--                        <div class="prising_bottom">-->
-<!--                            <a href="#" class="get_now prising_btn">Get Now</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-xl-4 col-md-4">-->
-<!--                    <div class="single_prising text-center wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".6s">-->
-<!--                        <div class="prising_header d-flex justify-content-between pink_header">-->
-<!--                            <h3>Team</h3>-->
-<!--                            <span>$06</span>-->
-<!--                        </div>-->
-<!--                        <ul>-->
-<!--                            <li>One User</li>-->
-<!--                            <li>1000 ui elements</li>-->
-<!--                            <li>Webmail Support</li>-->
-<!--                            <li>100GB Cloud Storage</li>-->
-<!--                            <li>Unlimited Users Limit</li>-->
-<!--                        </ul>-->
-<!--                        <div class="prising_bottom">-->
-<!--                            <a href="#" class="get_now prising_btn">Get Now</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-xl-4 col-md-4">-->
-<!--                    <div class="single_prising text-center wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".8s">-->
-<!--                        <div class="prising_header d-flex justify-content-between green_header">-->
-<!--                            <h3>Business</h3>-->
-<!--                            <span>$06</span>-->
-<!--                        </div>-->
-<!--                        <ul>-->
-<!--                            <li>One User</li>-->
-<!--                            <li>1000 ui elements</li>-->
-<!--                            <li>Webmail Support</li>-->
-<!--                            <li>100GB Cloud Storage</li>-->
-<!--                        </ul>-->
-<!--                        <div class="prising_bottom">-->
-<!--                            <a href="#" class="get_now prising_btn">Get Now</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--/ prising_area  -->
+    <section class="faq-section section-shell">
+      <div class="section-heading reveal"><span class="eyebrow">Good questions, good question</span><h2>Curious about<br><span>SmartQuiz?</span></h2></div>
+      <div class="faq-list">
+        <details class="faq-item reveal"><summary>Can I make a quiz about any topic?<span>+</span></summary><p>Yes. Choose one of the suggested categories or enter your own custom topic to build a quiz around something you want to explore.</p></details>
+        <details class="faq-item reveal"><summary>What kinds of questions can I play?<span>+</span></summary><p>Choose from question styles such as multiple choice, true or false, flashcards, and explain-the-answer. Available choices can depend on your quiz setup.</p></details>
+        <details class="faq-item reveal"><summary>How do flashcards work?<span>+</span></summary><p>When you miss an answer, you can save it as a flashcard and review it later. Your flashcard deck is organized by topic.</p></details>
+        <details class="faq-item reveal"><summary>Is SmartQuiz free to download?<span>+</span></summary><p>SmartQuiz is free on the App Store and offers optional in-app purchases. Any subscription details and prices are shown in the app before purchase.</p></details>
+      </div>
+    </section>
 
-<!-- productivity_area  -->
-<div class="productivity_area">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-xl-7 col-md-12 col-lg-6">
-                <h3 class="wow fadeInDown" data-wow-delay=".1s" data-wow-duration="1s">Start now. <br>
-                    And boost your energy!</h3>
-            </div>
-            <div class="col-xl-5 col-md-12 col-lg-6">
-                <div class="app_download wow fadeInDown" data-wow-delay=".1s" data-wow-duration="1s">
-                    <a href="https://apps.apple.com/us/app/raceme-realtime-running-races/id1514432749?itscg=30200&itsct=apps_box_badge&mttnsubad=1514432749" style="display: inline-block;">
-                        <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/white/en-us?releaseDate=1591574400" alt="Download on the App Store" style="width: 245px; height: 82px; vertical-align: middle; object-fit: contain;" />
-                    </a>
-                    <!--                        <a href="#">-->
-                    <!--                                <img src="img/ilstrator/play.svg" alt="">-->
-                    <!--                        </a>-->
+    <section class="final-cta section-shell reveal">
+      <div class="cta-orb cta-orb-one"></div><div class="cta-orb cta-orb-two"></div>
+      <div class="cta-icon"><img src="/assets/images/smartquiz-app-icon.png" alt="" width="70" height="70"></div>
+      <span class="eyebrow eyebrow-light">Your next “aha!” is waiting</span>
+      <h2>Curiosity called.<br>It wants a quiz.</h2>
+      <p>Take a small, playful step toward knowing something new.</p>
+      <a class="app-store-button cta-store" href="https://apps.apple.com/us/app/smart-quiz-ai-trivia-maker/id6736992820" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.05 12.54c-.02-2.07 1.69-3.07 1.77-3.12-.97-1.41-2.47-1.6-3-1.62-1.27-.13-2.5.76-3.15.76-.67 0-1.66-.75-2.73-.73-1.39.02-2.7.83-3.41 2.09-1.46 2.54-.37 6.27 1.03 8.33.7 1.01 1.51 2.13 2.57 2.09 1.03-.04 1.42-.67 2.67-.67 1.24 0 1.6.67 2.68.65 1.11-.02 1.81-1.02 2.48-2.04a9.1 9.1 0 0 0 1.14-2.35c-.03-.01-2.03-.78-2.05-3.39ZM14.98 6.45c.56-.7.94-1.66.83-2.63-.81.04-1.82.56-2.4 1.24-.52.6-.98 1.6-.85 2.53.91.07 1.85-.46 2.42-1.14Z"/></svg><span><small>Download on the</small><strong>App Store</strong></span></a>
+    </section>
+  </main>
 
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--/ productivity_area  -->
-
-<!-- footer start -->
-<footer class="footer">
-    <!--        <div class="footer_top">-->
-    <!--            <div class="container">-->
-    <!--                <div class="row">-->
-    <!--                    <div class="col-xl-4 col-md-6 col-lg-4">-->
-    <!--                        <div class="footer_widget">-->
-    <!--                            <div class="footer_logo">-->
-    <!--                                <a href="#">-->
-    <!--                                    <img src="img/logo.png" alt="">-->
-    <!--                                </a>-->
-    <!--                            </div>-->
-    <!--                            <p>-->
-    <!--                                Firmament morning sixth subdue darkness-->
-    <!--                                creeping gathered divide.-->
-    <!--                            </p>-->
-    <!--                            <div class="socail_links">-->
-    <!--                                <ul>-->
-    <!--                                    <li>-->
-    <!--                                        <a href="#">-->
-    <!--                                            <i class="ti-facebook"></i>-->
-    <!--                                        </a>-->
-    <!--                                    </li>-->
-    <!--                                    <li>-->
-    <!--                                        <a href="#">-->
-    <!--                                            <i class="ti-twitter-alt"></i>-->
-    <!--                                        </a>-->
-    <!--                                    </li>-->
-    <!--                                    <li>-->
-    <!--                                        <a href="#">-->
-    <!--                                            <i class="fa fa-instagram"></i>-->
-    <!--                                        </a>-->
-    <!--                                    </li>-->
-    <!--                                </ul>-->
-    <!--                            </div>-->
-
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                    <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">-->
-    <!--                        <div class="footer_widget">-->
-    <!--                            <h3 class="footer_title">-->
-    <!--                                    Services-->
-    <!--                            </h3>-->
-    <!--                            <ul>-->
-    <!--                                <li><a href="#">Team management</a></li>-->
-    <!--                                <li><a href="#">Collaboration</a></li>-->
-    <!--                                <li><a href="#">Todo</a></li>-->
-    <!--                                <li><a href="#">Events</a></li>-->
-    <!--                            </ul>-->
-
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                    <div class="col-xl-2 col-md-6 col-lg-2">-->
-    <!--                        <div class="footer_widget">-->
-    <!--                            <h3 class="footer_title">-->
-    <!--                                    Useful Links-->
-    <!--                            </h3>-->
-    <!--                            <ul>-->
-    <!--                                <li><a href="#">Pricing4</a></li>-->
-    <!--                                <li><a href="#">Features</a></li>-->
-    <!--                                <li><a href="#">Blog</a></li>-->
-    <!--                                <li><a href="#">Contact</a></li>-->
-    <!--                            </ul>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                    <div class="col-xl-3 col-md-6 col-lg-3">-->
-    <!--                        <div class="footer_widget">-->
-    <!--                            <h3 class="footer_title">-->
-    <!--                                    Downloads-->
-    <!--                            </h3>-->
-    <!--                            <ul>-->
-    <!--                                <li>-->
-    <!--                                    <a href="#">-->
-    <!--                                        Download from Apple Store-->
-
-    <!--                                    </a>-->
-    <!--                                </li>-->
-    <!--                                <li><a href="#">-->
-    <!--                                        Download from Play Store-->
-    <!--                                    </a>-->
-    <!--                                </li>-->
-    <!--                                </ul>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <div class="copy-right_text">
-        <div class="container">
-            <div class="footer_border"></div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <p class="copy_right text-center">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                        All rights reserved | Designed with <i aria-hidden="true" class="fa fa-heart-o"></i> by <a
-                            href="https://colorlib.com" target="_blank">Colorlib</a>
-                        | <a href="Images_attributes.html">Images Attributes</a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!--/ footer end  -->
-
-<!-- JS here -->
-<script src="js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="js/vendor/jquery-1.12.4.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/ajax-form.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/scrollIt.js"></script>
-<script src="js/jquery.scrollUp.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/nice-select.min.js"></script>
-<script src="js/jquery.slicknav.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/gijgo.min.js"></script>
-
-<!--contact js-->
-<script src="js/contact.js"></script>
-<script src="js/jquery.ajaxchimp.min.js"></script>
-<script src="js/jquery.form.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/mail-script.js"></script>
-
-<script src="js/main.js"></script>
+  <footer class="site-footer">
+    <div class="footer-main section-shell"><a class="brand footer-brand" href="/" aria-label="SmartQuiz home"><img src="/assets/images/smartquiz-app-icon.png" alt="" width="40" height="40"><span>Smart<span class="brand-accent">Quiz</span></span></a><p>A little curiosity can take you a long way.</p><div class="footer-links"><a href="/privacy_policy.html">Privacy Policy</a><a href="/terms_and_conditions.html">Terms &amp; Conditions</a><a href="mailto:hello@kirlosyousef.com">Contact</a></div></div>
+    <div class="footer-bottom section-shell"><span>© <span id="year">2026</span> SmartQuiz. All rights reserved.</span><span>Made for curious minds <i>✳</i></span></div>
+  </footer>
+  <script src="/script.js" defer></script>
 </body>
-
 </html>

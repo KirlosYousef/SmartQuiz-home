@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">SmartQuiz — Make curiosity a daily habit</title>
+  <desc id="desc">AI-made quizzes, custom topics, flashcards, and learning streaks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9f5ff"/><stop offset="1" stop-color="#eee2ff"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8c55ed"/><stop offset="1" stop-color="#5426b9"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#442178" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1200" height="630" rx="34" fill="url(#bg)"/>
+  <circle cx="1020" cy="115" r="245" fill="#ffdec8" opacity=".62"/>
+  <circle cx="1115" cy="515" r="265" fill="#d6c0ff" opacity=".58"/>
+  <circle cx="70" cy="570" r="180" fill="#c6f3e9" opacity=".45"/>
+  <image href="smartquiz-app-icon.png" x="92" y="76" width="64" height="64" rx="18"/>
+  <text x="174" y="119" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#241a35">Smart<tspan fill="#7137e8">Quiz</tspan></text>
+  <text x="94" y="254" font-family="Arial,sans-serif" font-size="66" font-weight="700" letter-spacing="-2" fill="#211735">Follow your curiosity.</text>
+  <text x="94" y="328" font-family="Arial,sans-serif" font-size="66" font-weight="700" letter-spacing="-2" fill="#7137e8">Quiz your way there.</text>
+  <text x="98" y="388" font-family="Arial,sans-serif" font-size="23" fill="#70697b">AI-made quizzes · Custom topics · Flashcards · Daily streaks</text>
+  <rect x="98" y="444" width="228" height="64" rx="15" fill="#201a2b"/>
+  <text x="130" y="469" font-family="Arial,sans-serif" font-size="13" fill="#d8d2df">Download on the</text>
+  <text x="130" y="493" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff">App Store</text>
+  <g filter="url(#shadow)" transform="rotate(5 933 340)">
+    <rect x="824" y="100" width="224" height="390" rx="34" fill="#282130"/>
+    <rect x="834" y="110" width="204" height="370" rx="27" fill="url(#card)"/>
+    <circle cx="936" cy="155" r="26" fill="#ffffff" opacity=".18"/>
+    <path d="M936 138l5 11 12 2-9 8 2 12-10-6-10 6 2-12-9-8 12-2z" fill="#fff"/>
+    <text x="857" y="212" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#e8dcff">YOUR NEXT QUIZ</text>
+    <text x="857" y="251" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#ffffff">A little smarter,</text>
+    <text x="857" y="279" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#ffffff">one question at</text>
+    <text x="857" y="307" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#ffffff">a time.</text>
+    <rect x="855" y="337" width="172" height="39" rx="11" fill="#ffffff" opacity=".95"/><text x="872" y="362" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#5226b7">✦  Choose a topic</text>
+    <rect x="855" y="385" width="172" height="39" rx="11" fill="#ffffff" opacity=".2"/><text x="872" y="410" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">🔥  Build a streak</text>
+    <rect x="870" y="447" width="85" height="7" rx="4" fill="#ffffff" opacity=".5"/>
+  </g>
+  <text x="1060" y="85" font-family="Arial,sans-serif" font-size="30" fill="#f28a4c">✳</text>
+  <text x="776" y="553" font-family="Arial,sans-serif" font-size="38" fill="#7137e8">✦</text>
+</svg>
